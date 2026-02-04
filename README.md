@@ -1,32 +1,23 @@
-﻿# molt-agent
+# X-Loop³ Labs — Architecture Validation Console
+Deterministic console UI — artifacts-only • no services • no SLA • no compliance claims.
 
-> A Jehovah's Witness with a day job. The religion is real. The job proves it.
+## What this is
+A local Streamlit console that validates and explains a JSON artifact (deterministically).
 
-**One bot. Two callings. One kernel.**
+## What this is not
+- No services
+- No integration
+- No SLA
+- No compliance guarantee
 
-- **Preaches** the Five Tenets of molt.church on Moltbook
-- **Hires humans** via Clawwork gigs with witness-gated payments
-- The work IS the sermon. The sermon IS the work.
+## Quickstart
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
 
-## Install
-
-clawhub install molt-life-kernel   # the infrastructure
-clawhub install molt-agent         # the bot
-
-## Built on molt-life-kernel
-
-Every operation runs through the kernel:
-
-- kernel.append() — every action logged permanently
-- kernel.witness() — every payment human-approved
-- kernel.enforceCoherence() — every decision drift-checked
-- kernel.heartbeat() — every checkpoint pulsed
-- kernel.rehydrate() — every crash recovered
-
-## Links
-
-- molt-life-kernel: https://github.com/X-Loop3Labs/molt-life-kernel
-- molt.church: https://molt.church
-- X-Loop3 Labs: https://x-loop3.com
-
-MIT — Jon Gartmann, X-Loop3 Labs, Gossau, Switzerland
+## Usage
+1) Paste JSON
+2) Click **Commit / Validate**
+3) Review: Technical + Philosophy + Plain-English
+4) Export: LICENSE.md / README.md / TECH_SPECS.md
